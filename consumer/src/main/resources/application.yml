@@ -1,0 +1,10 @@
+spring: 
+  application:
+    name: consumer
+server:
+  port: 10001
+  servlet:
+    context-path: /
+mq: 
+  name-server: 192.168.1.104:9876
+  consumer-group: "consumer_group"

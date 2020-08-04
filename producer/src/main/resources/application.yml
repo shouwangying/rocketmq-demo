@@ -1,0 +1,10 @@
+spring: 
+  application:
+    name: producer
+server:
+  port: 10000
+  servlet:
+    context-path: /
+mq: 
+  name-server: 192.168.1.104:9876
+  producer-group: "producer_group"
